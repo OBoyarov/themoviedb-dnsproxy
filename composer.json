@@ -1,0 +1,17 @@
+{
+    "name": "boyaroff/themoviedb-dnsproxy",
+    "description": "Proxy wrapper for TheMovieDB API with DNS fallback",
+    "authors": [ { "name": "boyaroff" } ],
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "ext-curl": "*",
+        "pear/net_dns2": "1.5.5"
+    }
+}
